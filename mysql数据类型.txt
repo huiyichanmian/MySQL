@@ -1,0 +1,20 @@
+MySQL数据类型
+
+一、MySQL常见的数据类型
+
+在MySQL数据库管理系统中，可以通过存储引擎来决定表的类型。同时，MySQL数据库管理系统也提供了数据类型决定表存储数据的类型。MySQL数据库管理系统提供的数据类型有：
+
+- 数值类型
+  整数类型：TINYINT, SMALLINT, MEDIUMINT, INT, BIGINT
+  浮点数类型：FLOAT, DOUBLE
+  定点数类型：DEC
+  位类型：BIT
+- 字符串类型
+  CHAR系列：CHAR, VARCHAR
+  TEXT系列：TINYTEXT, TEXT, MEDIUMTEXT, LONGTEXT
+  BLOB系列：TINYBLOB, BLOB, MEDIUMBLOB, LONGBLOB
+  BINARY系列：BINARY, VARBINARY
+  枚举类型：ENUM
+  集合类型：SET
+- 时间和日期类型
+  DATE, TIME, DATETIME, TIMESTAMP, YEAR 
